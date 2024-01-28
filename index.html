@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coverpage</title>
+    <style>
+body{
+    background: url(./images/background);
+    background-size: auto;
+}
+.header{
+position: absolute;
+padding: 0 0 0 1400px;
+text-decoration: solid;
+}
+h1{
+    background-color: purple;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    padding: 250px 0 50px 0;
+    height: 50vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 90px;
+    gap: 10px;
+}
+h2{
+    background: content-box;
+    background-color: lightgreen;
+    gap: 10px;
+}
+
+.container{
+    display: grid;
+    height: 200px;
+    width: 100%;
+    background-color: yellowgreen;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+.box1{
+    background-color: red;
+   grid-column:span 2;
+    grid-row: span 2;
+}
+.box2{
+    background-color: pink;
+   /* grid-column:span 2; */
+   /* grid-row: span 2; */
+   
+}
+.box3{
+    background-color: white;
+  
+}
+/* .box4{
+    background-color: aliceblue;
+} */
+
+.footer{
+    display: flex;
+    justify-content: end;
+}
+.start{
+    display: flex;
+    justify-content: flex-start;
+}
+    </style>
+</head>
+<body>
+<header class="header"> <h1>2017 </h1></header>
+
+<div class="logo">
+    <img src="./images/logo" alt="logo">
+</div>
+
+
+<div class="grid">
+    <h2>English</h2>
+    <h2>Marathi</h2>
+    <h2>Hindi</h2>
+    <h2>History</h2>
+    <h2>Geography</h2>
+    <h2>Science (Part-1)</h2>
+    <h2>Science (Part-2)</h2>
+    <h2>Mathematics (Part-1)</h2>
+    <h2>Mathematics (Part-2)</h2>
+</div>
+<h1>All subjects included : </h1>
+
+<div class="container">
+   
+    <!-- <div class="Box1">
+        <ul>
+            <li>Updated Format of Question Paper/Activity Sheet</li>
+            <li>Board's March 2017 Question Paper/Activity Sheet with Solution</li>
+            <li>5 Question Papers/Activity Sheets for Practice</li>
+        </ul>
+        <div class="Box2">
+            <p> Board's Past Question Papers/Activity Sheets with Complete Solution on QR Code</p>
+        </div>
+
+        <div class="Box3"> <p> Complete Solution of Practice Papers on QR Code</p></div>
+    </div> -->
+
+    <div class="box1"> 
+        <ul>
+            <li>Updated Format of Question Paper/Activity Sheet</li>
+            <li>Board's March 2017 Question Paper/Activity Sheet with Solution</li>
+            <li>5 Question Papers/Activity Sheets for Practice</li>
+        </ul>
+    </div>
+    <div class="box2"> <p> Complete Solution of Practice Papers on QR Code</p></div>
+    <div class="box3">  <p> Board's Past Question Papers/Activity Sheets with Complete Solution on QR Code</p></div>
+    <!-- <div class="box4"></div> -->
+</div>
+
+<div>
+    <p class="start">Get Free
+        Smart
+        DigiBook
+        Your Smart Book Platform
+    </p>
+</div>
+<footer class="footer">
+    <img class="img" src="./images/logo" alt="logo">
+</footer>
+
+</body>
+</html>
